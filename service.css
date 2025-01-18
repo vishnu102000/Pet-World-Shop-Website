@@ -1,0 +1,65 @@
+#pet{
+    font-size: 38px;
+}
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+}
+.nav-item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 1.8%;
+    text-indent: 25px;
+    
+}
+#sear{
+    width: 350px;
+    border: 0 2px solid blue;
+    border-color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 10px;
+}
+ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+li a:active{
+    background-color: lightsteelblue;
+    
+  }
+  li a.active{
+    color: red;
+    background-color: light;
+  }
+body{
+    background-color: rgba(255, 166, 0, 0.708);
+}
+#care{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 200px;
+}
+#imag{
+    height: 400px;
+    
+}
+#qout{
+    float: right;
+    color: blue;
+}
+#rate{
+    text-align: center;
+    margin-left: 90px;
+}
+.buttons{
+  line-height: 50px;
+}
+.container{
+  max-width: 1200px; 
+  margin: auto;
+}
+
+

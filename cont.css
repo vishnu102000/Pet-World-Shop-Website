@@ -1,0 +1,113 @@
+#pet{
+    font-size: 38px;
+}
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+}
+.nav-item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 1.8%;
+    text-indent: 25px;
+    
+    
+}
+#sear{
+    width: 350px;
+    border: 0 2px solid blue;
+    border-color: black;
+}
+ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+li a:active{
+    background-color: lightsteelblue;
+    
+  }
+  li a.active{
+    color: red;
+    background-color: light;
+  }
+
+.lef{
+    width: 350px;
+    height: 45px;
+    float: left;
+    margin-left: 120px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 0  50px 0;
+    box-shadow: 0 0 30px skyblue;
+}
+.rig{
+    width: 350px;
+    height: 45px;
+    margin-right: 120px;
+    text-align: center;
+    float: right;
+    border: 2px solid green;
+    border-radius: 0  50px 0;
+    box-shadow: 0 0 30px skyblue;
+}
+#write{
+   
+    width: 600px;
+    height: 200px;
+    margin-bottom: 2%;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 0  50px 0;
+    box-shadow: 0 0 30px skyblue;
+}
+#do{
+    margin-left: 150px;
+    box-sizing: border-box;
+    width: 150px;
+}
+#do a{
+    color: white;
+    text-decoration-line: none;
+}
+#contac{
+   max-width: 1200px;
+   background-color: rgb(232, 231, 222); 
+   margin: auto;
+   margin-bottom: 3%;
+   box-sizing: border-box;
+   text-align: center;
+   font-size: 18px;
+   box-shadow: 2px 2px 2px#151414;
+   border-radius: 0 0 40px 40px;
+   
+}
+.card-title{
+    font-size: 45px;
+}
+@media only screen and (max-width: 1200px) {
+    #contac{
+        width: 760px;
+    }
+    .lef{
+      width: 240px;
+    }
+    .rig{
+      width: 240px;
+    }
+    #write{
+      width: 350px;
+    }
+    #do{
+      /* width: 100px; */
+      margin-right: 150px;
+    }
+}
+.container{
+  max-width: 1200px; 
+  margin: auto;
+  
+}
+
